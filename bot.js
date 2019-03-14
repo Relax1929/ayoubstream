@@ -35,7 +35,7 @@ client.on('message', message => {//Toxic Codes
       message.channel.send(`Changing Prefix ..**${argresult}** `)//Toxic Codes
 } else
 if (message.content.startsWith(adminprefix + 'setavatar')) {//Toxic Codes
-  client.user.setAvatar(argresult);
+  client.user.setAvatar(argresult); 
     message.channel.send(`Changing The Avatar To :**${argresult}** `);//Toxic Codes
 }
 });//Toxic Codes
